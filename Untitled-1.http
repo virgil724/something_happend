@@ -1,0 +1,20 @@
+POST http://127.0.0.1:8000/token/
+Content-Type: application/json
+
+
+{ 
+    "username":"靠杯",
+"password":"virgil246"
+}
+
+###
+GET http://127.0.0.1:8000/v1/report
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3ODIwMzA4LCJpYXQiOjE3MDc4MjAwMDgsImp0aSI6ImE2YmY2YWZlZGExMTQ3ZTg5NTM2ZjRhMDAwZWYyYjQ4IiwidXNlcl9pZCI6MX0.LH4KB_cUup2zpPrgBJtSqkHlo2aI8EuV99YyEmfEUnU
+###
+POST http://127.0.0.1:8000/v1/report/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA3ODE4MjEyLCJpYXQiOjE3MDc4MTc5MTIsImp0aSI6ImI1MjRlMTU2NTgzZDQ4MGViMTg1M2M0MDAwNDgyMzJkIiwidXNlcl9pZCI6MX0.A7i6Rbuo3ZzJUCpGdA8RNLidwiUhxj4YFFQvrOH-JMk
+Content-Type:  application/json
+
+{
+    "body":"1231421"
+}
